@@ -5,7 +5,7 @@ from datetime import datetime
 class AIAgent:
     def __init__(self):
         self.short_memory = []  # Últimas 3 interações
-        self.long_memory_file = "long_term_memory.txt"
+        self.long_memory_file = "long_term_memory_v1.txt"
         self.tools = {
             "calculator": self.calculator_tool,
             "data": self.data_tool,
