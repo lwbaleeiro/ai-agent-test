@@ -79,7 +79,7 @@ if __name__ == "__main__":
     steps = agent.plan(task)
 
     # Chamar a ação com a ferramenta
-    agent.act(steps, tool="weather_api", city="Sinop", api_key="a6f6c66d81d34a819a621444252901")
+    agent.act(steps, tool="weather_api", city="Sinop", api_key="")
 
     # Exibir memórias
     print("Memória curta:", agent.short_memory)
